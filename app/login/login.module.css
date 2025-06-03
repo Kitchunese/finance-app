@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb;
+  padding: 3rem 1rem;
+}
+
+/* карточки */
+.card {
+  width: 100%;
+  max-width: 28rem;
+}
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* форма */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.passwordHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.forgotPassword {
+  font-size: 0.875rem;
+  text-decoration: underline;
+}
+.submitButton {
+  width: 100%;
+}
+.registerLink {
+  text-align: center;
+  font-size: 0.875rem;
+}
+.link {
+  text-decoration: underline;
+}
