@@ -10,7 +10,7 @@ export default function LandingPage() {
         <div className={styles.headerContent}>
           <div className={styles.logoContainer}>
             <Link href="/" className={styles.logo}>
-              FinanceAI
+              FinanceApp
             </Link>
           </div>
           <MainNav />
